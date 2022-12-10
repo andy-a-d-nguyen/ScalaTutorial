@@ -1,0 +1,1155 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (GraalVM Community Java 17.0.4)
+[debug] Load.defaultLoad until apply took 618.7334ms
+[debug]           Load.loadUnit: plugins took 88.4427ms
+[debug]           Load.loadUnit: defsScala took 0.3859ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.0414 ms
+[debug]               Load.resolveProject(scala-tutorial-build) took 52.9184ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-tutorial-build, base: C:\Users\andya\IdeaProjects\Scala Tutorial\project, plugins: List(<none>))) took 100.1575ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\project, returning: (scala-tutorial-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 124.4587ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.4283ms
+[debug]         Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/project/, ...) took 222.9715ms
+[debug]       Load.apply: load took 452.8398ms
+[debug]       Load.apply: resolveProjects took 8.4374ms
+[debug]       Load.apply: finalTransforms took 74.1252ms
+[debug]       Load.apply: config.delegates took 20.7439ms
+[debug]       Load.apply: Def.make(settings)... took 550.0599ms
+[debug]       Load.apply: structureIndex took 129.6618ms
+[debug]       Load.apply: mkStreams took 2.2819ms
+[info] loading project definition from C:\Users\andya\IdeaProjects\Scala Tutorial\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2440.6118ms
+[debug]     Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial
+[debug]       Load.loadUnit: mkEval took 7.807ms
+[debug] [Loading] Found root project Scala-Tutorial w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6567 ms
+[info] loading settings for project Scala-Tutorial from build.sbt ...
+[debug]         Load.resolveProject(Scala-Tutorial) took 3.4664ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Scala-Tutorial, base: C:\Users\andya\IdeaProjects\Scala Tutorial, aggregate: List(ProjectRef(./Classes%20Vs%20Case%20Classes/Case%20Classes%20Encoding,Case-Classes-Encoding), ProjectRef(./Classes%20Vs%20Case%20Classes/Creation%20and%20Manipulation,Creation-and-Manipulation), ProjectRef(./Classes%20Vs%20Case%20Classes/Equality,Equality), ProjectRef(./Definitions%20and%20Evaluation/Multiple%20Parameters,Multiple-Parameters), ProjectRef(./Definitions%20and%20Evaluation/Naming%20Things,Naming-Things), ProjectRef(./Definitions%20and%20Evaluation/Naming%20Things%202,Naming-Things-2), ProjectRef(./Functional%20Loops/Computing%20the%20Square%20Root%20of%20a%20Value,Computing-the-Square-Root-of-a-Value), ProjectRef(./Functional%20Loops/Conditional%20Expressions,Conditional-Expressions), ProjectRef(./Higher%20Order%20Functions/Higher%20Order%20Functions,Higher-Order-Functions), ProjectRef(./Imperative%20Programming/Imperative%20Loops,Imperative-Loops), ProjectRef(./Imperative%20Programming/Stateful%20Objects,Stateful-Objects), ProjectRef(./Lazy%20Evaluation/Lazy%20Evaluation,Lazy-Evaluation), ProjectRef(./Lazy%20Evaluation/Lazy%20Lists,Lazy-Lists), ProjectRef(./Lexical%20Scopes/Lexical%20Scoping,Lexical-Scoping), ProjectRef(./Lexical%20Scopes/Nested%20Functions,Nested-Functions), ProjectRef(./Navigating%20Around/Course%20View,Course-View), ProjectRef(./Navigating%20Around/Editor,Editor), ProjectRef(./Navigating%20Around/First%20Steps,First-Steps), ProjectRef(./Navigating%20Around/Task%20Description,Task-Description), ProjectRef(./Object%20Oriented%20Programming/Object%20Oriented%20Programming,Object-Oriented-Programming), ProjectRef(./Object%20Oriented%20Programming/Rational%20Arithmetic,Rational-Arithmetic), ProjectRef(./Object%20Oriented%20Programming/Traits,Traits), ProjectRef(./Polymorphic%20Types/Covariance,Covariance), ProjectRef(./Polymorphic%20Types/Polymorphic%20Types,Polymorphic-Types), ProjectRef(./Polymorphic%20Types/Type%20Bounds,Type-Bounds), ProjectRef(./Standard%20Library/Common%20Operations%20on%20Lists,Common-Operations-on-Lists), ProjectRef(./Standard%20Library/Error%20Handling,Error-Handling), ProjectRef(./Standard%20Library/List,List), ProjectRef(./Structuring%20Information/Defining%20Alternatives%20With%20Sealed%20Traits,Defining-Alternatives-With-Sealed-Traits), ProjectRef(./Structuring%20Information/Enumerations,Enumerations), ProjectRef(./Structuring%20Information/Introduction,Introduction), ProjectRef(./Syntactic%20Conveniences/Functions,Functions), ProjectRef(./Syntactic%20Conveniences/Methods%20Parameters,Methods-Parameters), ProjectRef(./Syntactic%20Conveniences/String%20Interpolation,String-Interpolation), ProjectRef(./Syntactic%20Conveniences/Tuples,Tuples), ProjectRef(./Tail%20Recursion/Recursive%20Function%20Application,Recursive-Function-Application), ProjectRef(./Terms%20and%20Types/Common%20Types,Common-Types), ProjectRef(./Terms%20and%20Types/Method%20Calls,Method-Calls), ProjectRef(./Terms%20and%20Types/Operators,Operators), ProjectRef(./Terms%20and%20Types/Primitive%20Expressions,Primitive-Expressions), ProjectRef(./Type%20Classes/Type%20Classes,Type-Classes)), plugins: List(<none>))) took 6.338ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial, returning: (Scala-Tutorial)
+[debug]     Load.loadUnit: loadedProjectsRaw took 269.0099ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.2311ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/, ...) took 2720.7865ms
+[debug]     Load.loadUnit: plugins took 6.8044ms
+[debug]     Load.loadUnit: defsScala took 0.0127ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Case Classes Encoding
+[debug]       Load.loadUnit: mkEval took 0.7076ms
+[debug] [Loading] Found root project Case-Classes-Encoding w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8378 ms
+[info] loading settings for project Case-Classes-Encoding from build.sbt ...
+[debug]         Load.resolveProject(Case-Classes-Encoding) took 1.3796ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Case-Classes-Encoding, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Case Classes Encoding, plugins: List(<none>))) took 3.6605ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Case Classes Encoding, returning: (Case-Classes-Encoding)
+[debug]     Load.loadUnit: loadedProjectsRaw took 42.8975ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.2058ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Classes%20Vs%20Case%20Classes/Case%20Classes%20Encoding/, ...) took 53.1538ms
+[debug]     Load.loadUnit: plugins took 5.1437ms
+[debug]     Load.loadUnit: defsScala took 0.0043ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Creation and Manipulation
+[debug]       Load.loadUnit: mkEval took 0.4253ms
+[debug] [Loading] Found root project Creation-and-Manipulation w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.5646 ms
+[info] loading settings for project Creation-and-Manipulation from build.sbt ...
+[debug]         Load.resolveProject(Creation-and-Manipulation) took 1.387ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Creation-and-Manipulation, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Creation and Manipulation, plugins: List(<none>))) took 4.5262ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Creation and Manipulation, returning: (Creation-and-Manipulation)
+[debug]     Load.loadUnit: loadedProjectsRaw took 41.8127ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.2211ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Classes%20Vs%20Case%20Classes/Creation%20and%20Manipulation/, ...) took 50.1095ms
+[debug]     Load.loadUnit: plugins took 6.1038ms
+[debug]     Load.loadUnit: defsScala took 0.0062ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Equality
+[debug]       Load.loadUnit: mkEval took 0.7241ms
+[debug] [Loading] Found root project Equality w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2501 ms
+[info] loading settings for project Equality from build.sbt ...
+[debug]         Load.resolveProject(Equality) took 1.4432ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Equality, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Equality, plugins: List(<none>))) took 3.1877ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Classes Vs Case Classes\Equality, returning: (Equality)
+[debug]     Load.loadUnit: loadedProjectsRaw took 40.7916ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1548ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Classes%20Vs%20Case%20Classes/Equality/, ...) took 50.0971ms
+[debug]     Load.loadUnit: plugins took 5.8458ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Multiple Parameters
+[debug]       Load.loadUnit: mkEval took 0.3173ms
+[debug] [Loading] Found root project Multiple-Parameters w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.5071 ms
+[info] loading settings for project Multiple-Parameters from build.sbt ...
+[debug]         Load.resolveProject(Multiple-Parameters) took 1.5018ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Multiple-Parameters, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Multiple Parameters, plugins: List(<none>))) took 3.4465ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Multiple Parameters, returning: (Multiple-Parameters)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35.8967ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1541ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Definitions%20and%20Evaluation/Multiple%20Parameters/, ...) took 44.7919ms
+[debug]     Load.loadUnit: plugins took 5.2573ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Naming Things 2
+[debug]       Load.loadUnit: mkEval took 0.5638ms
+[debug] [Loading] Found root project Naming-Things-2 w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2059 ms
+[info] loading settings for project Naming-Things-2 from build.sbt ...
+[debug]         Load.resolveProject(Naming-Things-2) took 1.4316ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Naming-Things-2, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Naming Things 2, plugins: List(<none>))) took 4.2161ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Naming Things 2, returning: (Naming-Things-2)
+[debug]     Load.loadUnit: loadedProjectsRaw took 39.7056ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1726ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Definitions%20and%20Evaluation/Naming%20Things%202/, ...) took 48.0409ms
+[debug]     Load.loadUnit: plugins took 4.6862ms
+[debug]     Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Naming Things
+[debug]       Load.loadUnit: mkEval took 0.2981ms
+[debug] [Loading] Found root project Naming-Things w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2876 ms
+[info] loading settings for project Naming-Things from build.sbt ...
+[debug]         Load.resolveProject(Naming-Things) took 1.7771ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Naming-Things, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Naming Things, plugins: List(<none>))) took 4.7473ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Definitions and Evaluation\Naming Things, returning: (Naming-Things)
+[debug]     Load.loadUnit: loadedProjectsRaw took 36.694ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.3086ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Definitions%20and%20Evaluation/Naming%20Things/, ...) took 44.6359ms
+[debug]     Load.loadUnit: plugins took 4.5833ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Functional Loops\Computing the Square Root of a Value
+[debug]       Load.loadUnit: mkEval took 0.8057ms
+[debug] [Loading] Found root project Computing-the-Square-Root-of-a-Value w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4662 ms
+[info] loading settings for project Computing-the-Square-Root-of-a-Value from build.sbt ...
+[debug]         Load.resolveProject(Computing-the-Square-Root-of-a-Value) took 1.3394ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Computing-the-Square-Root-of-a-Value, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Functional Loops\Computing the Square Root of a Value, plugins: List(<none>))) took 3.2714ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Functional Loops\Computing the Square Root of a Value, returning: (Computing-the-Square-Root-of-a-Value)
+[debug]     Load.loadUnit: loadedProjectsRaw took 33.1749ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.2668ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Functional%20Loops/Computing%20the%20Square%20Root%20of%20a%20Value/, ...) took 40.8215ms
+[debug]     Load.loadUnit: plugins took 6.0679ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Functional Loops\Conditional Expressions
+[debug]       Load.loadUnit: mkEval took 0.4011ms
+[debug] [Loading] Found root project Conditional-Expressions w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.9675 ms
+[info] loading settings for project Conditional-Expressions from build.sbt ...
+[debug]         Load.resolveProject(Conditional-Expressions) took 1.8895ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Conditional-Expressions, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Functional Loops\Conditional Expressions, plugins: List(<none>))) took 4.4612ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Functional Loops\Conditional Expressions, returning: (Conditional-Expressions)
+[debug]     Load.loadUnit: loadedProjectsRaw took 36.1951ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.5409ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Functional%20Loops/Conditional%20Expressions/, ...) took 45.5391ms
+[debug]     Load.loadUnit: plugins took 4.7256ms
+[debug]     Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Higher Order Functions\Higher Order Functions
+[debug]       Load.loadUnit: mkEval took 0.7361ms
+[debug] [Loading] Found root project Higher-Order-Functions w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2999 ms
+[info] loading settings for project Higher-Order-Functions from build.sbt ...
+[debug]         Load.resolveProject(Higher-Order-Functions) took 1.7616ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Higher-Order-Functions, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Higher Order Functions\Higher Order Functions, plugins: List(<none>))) took 3.464ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Higher Order Functions\Higher Order Functions, returning: (Higher-Order-Functions)
+[debug]     Load.loadUnit: loadedProjectsRaw took 39.0299ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0531ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Higher%20Order%20Functions/Higher%20Order%20Functions/, ...) took 46.6506ms
+[debug]     Load.loadUnit: plugins took 4.7939ms
+[debug]     Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Imperative Programming\Imperative Loops
+[debug]       Load.loadUnit: mkEval took 0.5783ms
+[debug] [Loading] Found root project Imperative-Loops w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9887 ms
+[info] loading settings for project Imperative-Loops from build.sbt ...
+[debug]         Load.resolveProject(Imperative-Loops) took 1.3997ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Imperative-Loops, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Imperative Programming\Imperative Loops, plugins: List(<none>))) took 2.7793ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Imperative Programming\Imperative Loops, returning: (Imperative-Loops)
+[debug]     Load.loadUnit: loadedProjectsRaw took 33.3562ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1239ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Imperative%20Programming/Imperative%20Loops/, ...) took 41.0397ms
+[debug]     Load.loadUnit: plugins took 4.6729ms
+[debug]     Load.loadUnit: defsScala took 0.002ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Imperative Programming\Stateful Objects
+[debug]       Load.loadUnit: mkEval took 0.6273ms
+[debug] [Loading] Found root project Stateful-Objects w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.8699 ms
+[info] loading settings for project Stateful-Objects from build.sbt ...
+[debug]         Load.resolveProject(Stateful-Objects) took 1.3873ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Stateful-Objects, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Imperative Programming\Stateful Objects, plugins: List(<none>))) took 2.6372ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Imperative Programming\Stateful Objects, returning: (Stateful-Objects)
+[debug]     Load.loadUnit: loadedProjectsRaw took 33.895ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1697ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Imperative%20Programming/Stateful%20Objects/, ...) took 41.4036ms
+[debug]     Load.loadUnit: plugins took 4.7391ms
+[debug]     Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Lazy Evaluation\Lazy Evaluation
+[debug]       Load.loadUnit: mkEval took 0.3667ms
+[debug] [Loading] Found root project Lazy-Evaluation w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.8545 ms
+[info] loading settings for project Lazy-Evaluation from build.sbt ...
+[debug]         Load.resolveProject(Lazy-Evaluation) took 1.2259ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Lazy-Evaluation, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Lazy Evaluation\Lazy Evaluation, plugins: List(<none>))) took 2.494ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Lazy Evaluation\Lazy Evaluation, returning: (Lazy-Evaluation)
+[debug]     Load.loadUnit: loadedProjectsRaw took 30.6665ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1264ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Lazy%20Evaluation/Lazy%20Evaluation/, ...) took 38.2981ms
+[debug]     Load.loadUnit: plugins took 5.8589ms
+[debug]     Load.loadUnit: defsScala took 0.0074ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Lazy Evaluation\Lazy Lists
+[debug]       Load.loadUnit: mkEval took 0.6733ms
+[debug] [Loading] Found root project Lazy-Lists w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.8205 ms
+[info] loading settings for project Lazy-Lists from build.sbt ...
+[debug]         Load.resolveProject(Lazy-Lists) took 1.1916ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Lazy-Lists, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Lazy Evaluation\Lazy Lists, plugins: List(<none>))) took 2.3777ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Lazy Evaluation\Lazy Lists, returning: (Lazy-Lists)
+[debug]     Load.loadUnit: loadedProjectsRaw took 34.467ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.2565ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Lazy%20Evaluation/Lazy%20Lists/, ...) took 43.5743ms
+[debug]     Load.loadUnit: plugins took 4.2491ms
+[debug]     Load.loadUnit: defsScala took 0.0068ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Lexical Scopes\Lexical Scoping
+[debug]       Load.loadUnit: mkEval took 0.2831ms
+[debug] [Loading] Found root project Lexical-Scoping w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.691 ms
+[info] loading settings for project Lexical-Scoping from build.sbt ...
+[debug]         Load.resolveProject(Lexical-Scoping) took 1.5282ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Lexical-Scoping, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Lexical Scopes\Lexical Scoping, plugins: List(<none>))) took 2.6403ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Lexical Scopes\Lexical Scoping, returning: (Lexical-Scoping)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.0074ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.8221ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Lexical%20Scopes/Lexical%20Scoping/, ...) took 39.1868ms
+[debug]     Load.loadUnit: plugins took 4.5694ms
+[debug]     Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Lexical Scopes\Nested Functions
+[debug]       Load.loadUnit: mkEval took 0.735ms
+[debug] [Loading] Found root project Nested-Functions w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5573 ms
+[info] loading settings for project Nested-Functions from build.sbt ...
+[debug]         Load.resolveProject(Nested-Functions) took 1.1251ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Nested-Functions, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Lexical Scopes\Nested Functions, plugins: List(<none>))) took 2.02ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Lexical Scopes\Nested Functions, returning: (Nested-Functions)
+[debug]     Load.loadUnit: loadedProjectsRaw took 36.3722ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.6348ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Lexical%20Scopes/Nested%20Functions/, ...) took 44.1933ms
+[debug]     Load.loadUnit: plugins took 4.0348ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Course View
+[debug]       Load.loadUnit: mkEval took 0.7177ms
+[debug] [Loading] Found root project Course-View w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6535 ms
+[info] loading settings for project Course-View from build.sbt ...
+[debug]         Load.resolveProject(Course-View) took 1.1682ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Course-View, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Course View, plugins: List(<none>))) took 2.1498ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Course View, returning: (Course-View)
+[debug]     Load.loadUnit: loadedProjectsRaw took 32.6176ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1103ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Navigating%20Around/Course%20View/, ...) took 39.4664ms
+[debug]     Load.loadUnit: plugins took 4.1845ms
+[debug]     Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Editor
+[debug]       Load.loadUnit: mkEval took 0.2647ms
+[debug] [Loading] Found root project Editor w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.5121 ms
+[info] loading settings for project Editor from build.sbt ...
+[debug]         Load.resolveProject(Editor) took 1.1429ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Editor, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Editor, plugins: List(<none>))) took 3.1343ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Editor, returning: (Editor)
+[debug]     Load.loadUnit: loadedProjectsRaw took 32.3899ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9735ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Navigating%20Around/Editor/, ...) took 39.1984ms
+[debug]     Load.loadUnit: plugins took 4.0788ms
+[debug]     Load.loadUnit: defsScala took 0.0024ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\First Steps
+[debug]       Load.loadUnit: mkEval took 0.7399ms
+[debug] [Loading] Found root project First-Steps w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6942 ms
+[info] loading settings for project First-Steps from build.sbt ...
+[debug]         Load.resolveProject(First-Steps) took 1.7719ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id First-Steps, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\First Steps, plugins: List(<none>))) took 2.755ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\First Steps, returning: (First-Steps)
+[debug]     Load.loadUnit: loadedProjectsRaw took 36.1276ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9735ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Navigating%20Around/First%20Steps/, ...) took 42.7889ms
+[debug]     Load.loadUnit: plugins took 3.9627ms
+[debug]     Load.loadUnit: defsScala took 0.0017ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Task Description
+[debug]       Load.loadUnit: mkEval took 0.2728ms
+[debug] [Loading] Found root project Task-Description w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.7642 ms
+[info] loading settings for project Task-Description from build.sbt ...
+[debug]         Load.resolveProject(Task-Description) took 1.6981ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Task-Description, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Task Description, plugins: List(<none>))) took 2.8955ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Navigating Around\Task Description, returning: (Task-Description)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35.2184ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0559ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Navigating%20Around/Task%20Description/, ...) took 41.8744ms
+[debug]     Load.loadUnit: plugins took 4.8229ms
+[debug]     Load.loadUnit: defsScala took 0.002ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Object Oriented Programming
+[debug]       Load.loadUnit: mkEval took 0.6179ms
+[debug] [Loading] Found root project Object-Oriented-Programming w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6007 ms
+[info] loading settings for project Object-Oriented-Programming from build.sbt ...
+[debug]         Load.resolveProject(Object-Oriented-Programming) took 0.9786ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Object-Oriented-Programming, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Object Oriented Programming, plugins: List(<none>))) took 1.8521ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Object Oriented Programming, returning: (Object-Oriented-Programming)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35.4007ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.8713ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Object%20Oriented%20Programming/Object%20Oriented%20Programming/, ...) took 42.6275ms
+[debug]     Load.loadUnit: plugins took 3.4782ms
+[debug]     Load.loadUnit: defsScala took 0.0018ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Rational Arithmetic
+[debug]       Load.loadUnit: mkEval took 0.3353ms
+[debug] [Loading] Found root project Rational-Arithmetic w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6311 ms
+[info] loading settings for project Rational-Arithmetic from build.sbt ...
+[debug]         Load.resolveProject(Rational-Arithmetic) took 1.0649ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Rational-Arithmetic, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Rational Arithmetic, plugins: List(<none>))) took 1.9504ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Rational Arithmetic, returning: (Rational-Arithmetic)
+[debug]     Load.loadUnit: loadedProjectsRaw took 33.3494ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0174ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Object%20Oriented%20Programming/Rational%20Arithmetic/, ...) took 39.4582ms
+[debug]     Load.loadUnit: plugins took 3.4545ms
+[debug]     Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Traits
+[debug]       Load.loadUnit: mkEval took 1.0306ms
+[debug] [Loading] Found root project Traits w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.495 ms
+[info] loading settings for project Traits from build.sbt ...
+[debug]         Load.resolveProject(Traits) took 0.9831ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Traits, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Traits, plugins: List(<none>))) took 1.7607ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Object Oriented Programming\Traits, returning: (Traits)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.5612ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1138ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Object%20Oriented%20Programming/Traits/, ...) took 37.6769ms
+[debug]     Load.loadUnit: plugins took 3.6081ms
+[debug]     Load.loadUnit: defsScala took 0.0034ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Covariance
+[debug]       Load.loadUnit: mkEval took 0.2371ms
+[debug] [Loading] Found root project Covariance w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6209 ms
+[info] loading settings for project Covariance from build.sbt ...
+[debug]         Load.resolveProject(Covariance) took 1.1591ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Covariance, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Covariance, plugins: List(<none>))) took 2.1076ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Covariance, returning: (Covariance)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.6803ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0573ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Polymorphic%20Types/Covariance/, ...) took 37.9204ms
+[debug]     Load.loadUnit: plugins took 3.7056ms
+[debug]     Load.loadUnit: defsScala took 0.0016ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Polymorphic Types
+[debug]       Load.loadUnit: mkEval took 0.843ms
+[debug] [Loading] Found root project Polymorphic-Types w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5622 ms
+[info] loading settings for project Polymorphic-Types from build.sbt ...
+[debug]         Load.resolveProject(Polymorphic-Types) took 1.2416ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Polymorphic-Types, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Polymorphic Types, plugins: List(<none>))) took 2.1224ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Polymorphic Types, returning: (Polymorphic-Types)
+[debug]     Load.loadUnit: loadedProjectsRaw took 36.9131ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.199ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Polymorphic%20Types/Polymorphic%20Types/, ...) took 43.3741ms
+[debug]     Load.loadUnit: plugins took 4.8499ms
+[debug]     Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Type Bounds
+[debug]       Load.loadUnit: mkEval took 0.2679ms
+[debug] [Loading] Found root project Type-Bounds w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4766 ms
+[info] loading settings for project Type-Bounds from build.sbt ...
+[debug]         Load.resolveProject(Type-Bounds) took 1.0416ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Type-Bounds, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Type Bounds, plugins: List(<none>))) took 1.7752ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Polymorphic Types\Type Bounds, returning: (Type-Bounds)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.2759ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0639ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Polymorphic%20Types/Type%20Bounds/, ...) took 38.7745ms
+[debug]     Load.loadUnit: plugins took 5.4264ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\Common Operations on Lists
+[debug]       Load.loadUnit: mkEval took 0.72ms
+[debug] [Loading] Found root project Common-Operations-on-Lists w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5706 ms
+[info] loading settings for project Common-Operations-on-Lists from build.sbt ...
+[debug]         Load.resolveProject(Common-Operations-on-Lists) took 1.0849ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Common-Operations-on-Lists, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\Common Operations on Lists, plugins: List(<none>))) took 1.9159ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\Common Operations on Lists, returning: (Common-Operations-on-Lists)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35.6043ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.3789ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Standard%20Library/Common%20Operations%20on%20Lists/, ...) took 44.13ms
+[debug]     Load.loadUnit: plugins took 5.3796ms
+[debug]     Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\Error Handling
+[debug]       Load.loadUnit: mkEval took 0.3037ms
+[debug] [Loading] Found root project Error-Handling w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5558 ms
+[info] loading settings for project Error-Handling from build.sbt ...
+[debug]         Load.resolveProject(Error-Handling) took 1.1025ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Error-Handling, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\Error Handling, plugins: List(<none>))) took 1.9626ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\Error Handling, returning: (Error-Handling)
+[debug]     Load.loadUnit: loadedProjectsRaw took 32.5406ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9771ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Standard%20Library/Error%20Handling/, ...) took 40.5763ms
+[debug]     Load.loadUnit: plugins took 3.8259ms
+[debug]     Load.loadUnit: defsScala took 0.0021ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\List
+[debug]       Load.loadUnit: mkEval took 0.7508ms
+[debug] [Loading] Found root project List w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6365 ms
+[info] loading settings for project List from build.sbt ...
+[debug]         Load.resolveProject(List) took 1.24ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id List, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\List, plugins: List(<none>))) took 2.1572ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Standard Library\List, returning: (List)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.1353ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0332ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Standard%20Library/List/, ...) took 37.531ms
+[debug]     Load.loadUnit: plugins took 3.8381ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Defining Alternatives With Sealed Traits
+[debug]       Load.loadUnit: mkEval took 0.2977ms
+[debug] [Loading] Found root project Defining-Alternatives-With-Sealed-Traits w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4323 ms
+[info] loading settings for project Defining-Alternatives-With-Sealed-Traits from build.sbt ...
+[debug]         Load.resolveProject(Defining-Alternatives-With-Sealed-Traits) took 0.9561ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Defining-Alternatives-With-Sealed-Traits, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Defining Alternatives With Sealed Traits, plugins: List(<none>))) took 1.602ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Defining Alternatives With Sealed Traits, returning: (Defining-Alternatives-With-Sealed-Traits)
+[debug]     Load.loadUnit: loadedProjectsRaw took 33.3923ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0315ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Structuring%20Information/Defining%20Alternatives%20With%20Sealed%20Traits/, ...) took 39.837ms
+[debug]     Load.loadUnit: plugins took 3.4308ms
+[debug]     Load.loadUnit: defsScala took 0.0024ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Enumerations
+[debug]       Load.loadUnit: mkEval took 0.621ms
+[debug] [Loading] Found root project Enumerations w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5979 ms
+[info] loading settings for project Enumerations from build.sbt ...
+[debug]         Load.resolveProject(Enumerations) took 1.4321ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Enumerations, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Enumerations, plugins: List(<none>))) took 2.3441ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Enumerations, returning: (Enumerations)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.0723ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0343ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Structuring%20Information/Enumerations/, ...) took 37.1202ms
+[debug]     Load.loadUnit: plugins took 3.6816ms
+[debug]     Load.loadUnit: defsScala took 0.0018ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Introduction
+[debug]       Load.loadUnit: mkEval took 0.2481ms
+[debug] [Loading] Found root project Introduction w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5475 ms
+[info] loading settings for project Introduction from build.sbt ...
+[debug]         Load.resolveProject(Introduction) took 1.3557ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Introduction, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Introduction, plugins: List(<none>))) took 2.2314ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Structuring Information\Introduction, returning: (Introduction)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.184ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9174ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Structuring%20Information/Introduction/, ...) took 37.4201ms
+[debug]     Load.loadUnit: plugins took 3.4843ms
+[debug]     Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Functions
+[debug]       Load.loadUnit: mkEval took 0.253ms
+[debug] [Loading] Found root project Functions w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4959 ms
+[info] loading settings for project Functions from build.sbt ...
+[debug]         Load.resolveProject(Functions) took 0.9905ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Functions, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Functions, plugins: List(<none>))) took 1.7159ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Functions, returning: (Functions)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.186ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0155ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Syntactic%20Conveniences/Functions/, ...) took 37.2257ms
+[debug]     Load.loadUnit: plugins took 3.7108ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Methods Parameters
+[debug]       Load.loadUnit: mkEval took 0.8346ms
+[debug] [Loading] Found root project Methods-Parameters w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5463 ms
+[info] loading settings for project Methods-Parameters from build.sbt ...
+[debug]         Load.resolveProject(Methods-Parameters) took 0.9799ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Methods-Parameters, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Methods Parameters, plugins: List(<none>))) took 1.762ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Methods Parameters, returning: (Methods-Parameters)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.0741ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.1473ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Syntactic%20Conveniences/Methods%20Parameters/, ...) took 37.5208ms
+[debug]     Load.loadUnit: plugins took 4.047ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\String Interpolation
+[debug]       Load.loadUnit: mkEval took 0.2945ms
+[debug] [Loading] Found root project String-Interpolation w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6013 ms
+[info] loading settings for project String-Interpolation from build.sbt ...
+[debug]         Load.resolveProject(String-Interpolation) took 1.0892ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id String-Interpolation, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\String Interpolation, plugins: List(<none>))) took 1.9682ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\String Interpolation, returning: (String-Interpolation)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35.2017ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.595ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Syntactic%20Conveniences/String%20Interpolation/, ...) took 42.5506ms
+[debug]     Load.loadUnit: plugins took 4.2231ms
+[debug]     Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Tuples
+[debug]       Load.loadUnit: mkEval took 0.3701ms
+[debug] [Loading] Found root project Tuples w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9544 ms
+[info] loading settings for project Tuples from build.sbt ...
+[debug]         Load.resolveProject(Tuples) took 1.1239ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Tuples, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Tuples, plugins: List(<none>))) took 2.3965ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Syntactic Conveniences\Tuples, returning: (Tuples)
+[debug]     Load.loadUnit: loadedProjectsRaw took 35.3373ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9023ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Syntactic%20Conveniences/Tuples/, ...) took 42.1503ms
+[debug]     Load.loadUnit: plugins took 3.391ms
+[debug]     Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Tail Recursion\Recursive Function Application
+[debug]       Load.loadUnit: mkEval took 0.244ms
+[debug] [Loading] Found root project Recursive-Function-Application w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4782 ms
+[info] loading settings for project Recursive-Function-Application from build.sbt ...
+[debug]         Load.resolveProject(Recursive-Function-Application) took 0.9207ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Recursive-Function-Application, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Tail Recursion\Recursive Function Application, plugins: List(<none>))) took 1.6737ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Tail Recursion\Recursive Function Application, returning: (Recursive-Function-Application)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.9457ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.4984ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Tail%20Recursion/Recursive%20Function%20Application/, ...) took 38.3897ms
+[debug]     Load.loadUnit: plugins took 3.6291ms
+[debug]     Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Common Types
+[debug]       Load.loadUnit: mkEval took 0.549ms
+[debug] [Loading] Found root project Common-Types w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4138 ms
+[info] loading settings for project Common-Types from build.sbt ...
+[debug]         Load.resolveProject(Common-Types) took 1.031ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Common-Types, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Common Types, plugins: List(<none>))) took 1.6915ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Common Types, returning: (Common-Types)
+[debug]     Load.loadUnit: loadedProjectsRaw took 32.7746ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0088ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Terms%20and%20Types/Common%20Types/, ...) took 39.0944ms
+[debug]     Load.loadUnit: plugins took 3.5438ms
+[debug]     Load.loadUnit: defsScala took 0.002ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Method Calls
+[debug]       Load.loadUnit: mkEval took 0.7652ms
+[debug] [Loading] Found root project Method-Calls w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5806 ms
+[info] loading settings for project Method-Calls from build.sbt ...
+[debug]         Load.resolveProject(Method-Calls) took 1.0935ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Method-Calls, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Method Calls, plugins: List(<none>))) took 1.8916ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Method Calls, returning: (Method-Calls)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.6077ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.9564ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Terms%20and%20Types/Method%20Calls/, ...) took 37.7599ms
+[debug]     Load.loadUnit: plugins took 3.5306ms
+[debug]     Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Operators
+[debug]       Load.loadUnit: mkEval took 0.5863ms
+[debug] [Loading] Found root project Operators w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4654 ms
+[info] loading settings for project Operators from build.sbt ...
+[debug]         Load.resolveProject(Operators) took 0.9507ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Operators, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Operators, plugins: List(<none>))) took 1.6288ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Operators, returning: (Operators)
+[debug]     Load.loadUnit: loadedProjectsRaw took 30.2778ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.3125ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Terms%20and%20Types/Operators/, ...) took 37.6379ms
+[debug]     Load.loadUnit: plugins took 3.2561ms
+[debug]     Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Primitive Expressions
+[debug]       Load.loadUnit: mkEval took 0.5321ms
+[debug] [Loading] Found root project Primitive-Expressions w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.4257 ms
+[info] loading settings for project Primitive-Expressions from build.sbt ...
+[debug]         Load.resolveProject(Primitive-Expressions) took 0.9593ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Primitive-Expressions, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Primitive Expressions, plugins: List(<none>))) took 1.5869ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Terms and Types\Primitive Expressions, returning: (Primitive-Expressions)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31.3805ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.7929ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Terms%20and%20Types/Primitive%20Expressions/, ...) took 36.9594ms
+[debug]     Load.loadUnit: plugins took 3.4708ms
+[debug]     Load.loadUnit: defsScala took 0.0021ms
+[debug] [Loading] Scanning directory C:\Users\andya\IdeaProjects\Scala Tutorial\Type Classes\Type Classes
+[debug]       Load.loadUnit: mkEval took 0.2404ms
+[debug] [Loading] Found root project Type-Classes w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5231 ms
+[info] loading settings for project Type-Classes from build.sbt ...
+[debug]         Load.resolveProject(Type-Classes) took 1.0888ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id Type-Classes, base: C:\Users\andya\IdeaProjects\Scala Tutorial\Type Classes\Type Classes, plugins: List(<none>))) took 1.9161ms
+[debug] [Loading] Done in C:\Users\andya\IdeaProjects\Scala Tutorial\Type Classes\Type Classes, returning: (Type-Classes)
+[debug]     Load.loadUnit: loadedProjectsRaw took 32.1197ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.0994ms
+[debug]   Load.loadUnit(file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/Type%20Classes/Type%20Classes/, ...) took 38.2379ms
+[debug] Load.apply: load took 4490.7911ms
+[debug] Load.apply: resolveProjects took 1.8095ms
+[debug] Load.apply: finalTransforms took 196.5394ms
+[debug] Load.apply: config.delegates took 4.8482ms
+[info] resolving key references (42111 settings) ...
+[debug] Load.apply: Def.make(settings)... took 1450.8039ms
+[debug] Load.apply: structureIndex took 581.1954ms
+[debug] Load.apply: mkStreams took 0.0037ms
+[info] set current project to Scala-Tutorial (in build file:/C:/Users/andya/IdeaProjects/Scala%20Tutorial/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-fb3638f45dcff1623125
+[debug] Writing bsp connection file
+[info] started sbt server
